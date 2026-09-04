@@ -37,7 +37,7 @@ Run the standalone cleaner and draft-policy tests (only a JDK is needed):
 bash scripts/test.sh
 ```
 
-The 109 checks cover link preservation, redirects, long inputs, typing boundaries, Undo, and cursor mapping. On-device checks should also cover sharing, text selection, settings navigation, and accessibility behavior. The README images are Android emulator captures with system bars hidden, using the same fictional example link in light and dark mode.
+The 109 checks cover link preservation, redirects, long inputs, typing boundaries, Undo, and cursor mapping. On-device checks should also cover sharing, text selection, settings navigation, and accessibility behavior. The screenshots show the current development UI in light and dark mode, with system bars hidden and the same fictional example link.
 
 ## Release
 

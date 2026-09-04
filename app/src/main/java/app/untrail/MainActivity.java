@@ -44,7 +44,6 @@ public class MainActivity extends UiActivity {
   copyButton=compactIcon(outputHeader,"Copy cleaned text",R.drawable.ic_copy,()->{if(hasText()){((ClipboardManager)getSystemService(CLIPBOARD_SERVICE)).setPrimaryClip(ClipData.newPlainText("Untrail",cleaned.text));Toast.makeText(this,"Copied",Toast.LENGTH_SHORT).show();}});
   result=label(outputPanel,"",16,ink);result.setTextIsSelectable(true);result.setPadding(0,dp(6),0,dp(10));
   removedDetail=label(outputPanel,"",12,muted);space(outputPanel,16);
-  label(body,"Sharing sends links only",12,muted);
   whatsappButton=button(body,"WhatsApp",()->send(true));
   othersButton=button(body,"Others",()->send(false));
   input.addTextChangedListener(new TextWatcher(){public void beforeTextChanged(CharSequence s,int a,int c,int f){} public void onTextChanged(CharSequence s,int a,int b,int c){update();}public void afterTextChanged(Editable e){}});
