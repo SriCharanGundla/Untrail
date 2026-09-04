@@ -3,8 +3,8 @@
 Clean links before sharing them. A small, offline Android app that removes known tracking parameters, unwraps supported redirects, and leaves the URL ready to send.
 
 <p align="center">
-  <img src="docs/main-screen.png" width="320" alt="Untrail in light mode: a tracked link above its cleaned result, with WhatsApp and Others sharing buttons">
-  <img src="docs/main-screen-dark.png" width="320" alt="Untrail in dark mode with the same link, cleaned result, and sharing buttons">
+  <img src="docs/main-light-fbcc305c.png" width="320" alt="Untrail in light mode: a tracked link above its cleaned result, with WhatsApp and Others sharing buttons">
+  <img src="docs/main-dark-df85aa1e.png" width="320" alt="Untrail in dark mode with the same link, cleaned result, and sharing buttons">
 </p>
 
 ## Use it
