@@ -1,0 +1,28 @@
+# Android / Gradle build products
+.gradle/
+**/build/
+local.properties
+*.apk
+*.aab
+*.apks
+*.dex
+*.class
+# Signing credentials and local configuration
+.private/
+*.jks
+*.keystore
+*.p12
+*.pfx
+*.pem
+*.key
+.env
+.env.*
+keystore.properties
+# IDE / OS files
+.idea/
+*.iml
+.vscode/
+.DS_Store
+*.log
+__pycache__/
+*.pyc

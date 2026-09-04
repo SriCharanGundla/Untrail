@@ -1,0 +1,1 @@
+<resources><string name="accessibility_description">Experimental: reads the WhatsApp message composer to remove known URL tracking parameters. Does not send messages or save text. Enable only after reviewing the explanation in Untrail.</string></resources>
