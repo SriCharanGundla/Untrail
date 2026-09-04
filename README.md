@@ -3,7 +3,8 @@
 Clean links before sharing them. A small, offline Android app that removes known tracking parameters, unwraps supported redirects, and leaves the URL ready to send.
 
 <p align="center">
-  <img src="docs/main-screen.png" width="320" alt="Untrail on an Android phone: a tracked link above its cleaned result, with WhatsApp and Others sharing buttons">
+  <img src="docs/main-screen.png" width="320" alt="Untrail in light mode: a tracked link above its cleaned result, with WhatsApp and Others sharing buttons">
+  <img src="docs/main-screen-dark.png" width="320" alt="Untrail in dark mode with the same link, cleaned result, and sharing buttons">
 </p>
 
 ## Use it
@@ -36,7 +37,7 @@ Run the standalone cleaner and draft-policy tests (only a JDK is needed):
 bash scripts/test.sh
 ```
 
-The 109 checks cover link preservation, redirects, long inputs, typing boundaries, Undo, and cursor mapping. On-device checks should also cover sharing, text selection, settings navigation, and accessibility behavior. The README image is an actual Android emulator capture using a fictional example link.
+The 109 checks cover link preservation, redirects, long inputs, typing boundaries, Undo, and cursor mapping. On-device checks should also cover sharing, text selection, settings navigation, and accessibility behavior. The README images are Android emulator captures with system bars hidden, using the same fictional example link in light and dark mode.
 
 ## Release
 
