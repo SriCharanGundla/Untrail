@@ -1,7 +1,7 @@
 plugins { id 'com.android.application' }
 
-def releaseVersion = providers.gradleProperty('releaseVersion').getOrElse('0.5.4')
-def releaseCode = providers.gradleProperty('releaseCode').getOrElse('5004').toInteger()
+def releaseVersion = providers.gradleProperty('releaseVersion').getOrElse('0.1.0')
+def releaseCode = providers.gradleProperty('releaseCode').getOrElse('1000').toInteger()
 def keyPath = System.getenv('RELEASE_KEYSTORE_PATH')
 android {
  namespace 'app.untrail'

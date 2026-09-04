@@ -9,7 +9,7 @@ mkdir -p "$OUT/classes" "$OUT/generated" "$OUT/dex"
 "$BT/aapt2" compile --dir app/src/main/res -o "$OUT/resources.zip"
 python3 - "$OUT/AndroidManifest.xml" <<'PY'
 import sys
-s=open('app/src/main/AndroidManifest.xml').read().replace('<manifest xmlns:android=', '<manifest package="app.untrail" android:versionCode="5004" android:versionName="0.5.4" xmlns:android=')
+s=open('app/src/main/AndroidManifest.xml').read().replace('<manifest xmlns:android=', '<manifest package="app.untrail" android:versionCode="1000" android:versionName="0.1.0" xmlns:android=')
 s=s.replace(' <queries>', '<uses-sdk android:minSdkVersion="31" android:targetSdkVersion="36"/>\n <queries>')
 open(sys.argv[1],'w').write(s)
 PY

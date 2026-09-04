@@ -40,7 +40,7 @@ The 109 checks cover link preservation, redirects, long inputs, typing boundarie
 
 ## Release
 
-Open **Actions → Release APK → Run workflow**, select the revision, and enter a version such as `0.5.5`. The workflow tests, builds, verifies, signs, and publishes `Untrail-v0.5.5.apk` with SHA-256 checksums and a matching Git tag. No source edit is needed to set the release version.
+Open **Actions → Release APK → Run workflow**, select the revision, and enter a version such as `0.1.1`. The workflow tests, builds, verifies, signs, and publishes `Untrail-v0.1.1.apk` with SHA-256 checksums and a matching Git tag. No source edit is needed to set the release version.
 
 Versions use `X.Y.Z`; minor/patch must be at most 999. Android's version code is `X × 1,000,000 + Y × 1,000 + Z`. Existing versions cannot be overwritten and each new version must increase.
 
